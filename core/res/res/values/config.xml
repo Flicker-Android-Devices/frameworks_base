@@ -395,6 +395,9 @@
     <!-- Allowed unprivileged keepalive slots per uid. -->
     <integer translatable="false" name="config_allowedUnprivilegedKeepalivePerUid">2</integer>
 
+    <!-- The type of rear light sensor. Empty if rear light sensor is not supported. -->
+    <string name="config_rearLightSensorType" translatable="false"></string>
+
     <!-- This setting is deprecated, please use
          com.android.networkstack.tethering.R.array.config_tether_usb_regexs instead. -->
     <string-array translatable="false" name="config_tether_usb_regexs">
